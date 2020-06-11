@@ -1,0 +1,139 @@
+.grid-container {
+    display: grid;
+}
+
+body{
+    grid-template-rows: 3fr 3fr 1fr 3fr 1fr 3fr;
+    height:100vh;
+    width:100vw;
+    margin: 20px;
+    /* border:10pt solid black; */
+}
+
+.first-grid{
+    grid-row: 1/2;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    background-color: #C5D3EE;
+}
+
+.second-grid{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+}
+.name {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.job {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.one {
+    grid-row: 2/3;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.profile{
+    grid-column: 1/2;
+    text-align: center;
+}
+
+img {
+    grid-column: 2/3;
+    height:160pt;
+    width: 160pt;
+    border-radius: 90%;
+    margin:20pt;
+}
+
+.contact{
+    grid-column:3/4;
+    text-align: center;
+}
+
+.contact-table > li{
+    list-style-type: none;
+    padding: 5pt;
+    text-align: left;
+    margin-left: 60pt;
+}
+
+p {
+    text-align: left;
+    padding:1pt 45pt;
+}
+
+.skill-title {
+    grid-row: 3/4;
+    justify-items: center;
+}
+
+.two {
+    grid-row: 4/5;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.education {
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+
+.expertise {
+    text-align: center;
+}
+.skills-table > li{
+    list-style-type: none;
+    margin: 25pt;
+    text-align: center;
+}
+
+.expertise-table > li{
+    list-style-type: none;
+    margin: 16pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills-table, .expertise-table {
+    padding-left:0;
+}
+.blueback {
+    background-color: #C5D3EE;
+    padding: 6pt 2pt;
+    margin: 12pt 30pt;
+}
+
+.skills-table {
+    background-color: #C5D3EE;
+    padding: 2pt;
+}
+
+.experience-title {
+    grid-row: 5/6;
+    justify-items: center;
+    margin: auto 350pt;
+}
+
+.work {
+    grid-row: 6/7;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flouder > p {
+    padding-left: 15pt;
+}
+
+.skuttle > p {
+    padding-left: 15pt;
+}
