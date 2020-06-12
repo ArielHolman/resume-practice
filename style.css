@@ -6,8 +6,9 @@ body{
     grid-template-rows: 3fr 3fr 1fr 3fr 1fr 3fr;
     height:100vh;
     width:100vw;
-    margin: 20px;
-    /* border:10pt solid black; */
+    margin-left: 40pt;
+    margin-right: 40pt;
+    font-size: 17pt;
 }
 
 .first-grid{
@@ -52,6 +53,9 @@ img {
     width: 160pt;
     border-radius: 90%;
     margin:20pt;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .contact{
@@ -119,10 +123,12 @@ p {
     padding: 2pt;
 }
 
-.experience-title {
-    grid-row: 5/6;
-    justify-items: center;
-    margin: auto 350pt;
+.experience{
+    display: flex;
+    justify-content: center;
+    background-color: #a7a7a7;
+    margin: 12pt 330pt;
+    padding: 20pt 2pt;
 }
 
 .work {
@@ -132,8 +138,27 @@ p {
 
 .flouder > p {
     padding-left: 15pt;
+    margin: 10pt 20pt;
 }
 
 .skuttle > p {
     padding-left: 15pt;
+    margin: 10pt 20pt;
+}
+.third-line {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    height: 3pt; 
+    background-color: #C5D3EE;
+    border: none;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+.skill-line {
+    height: 3pt; 
+    background-color: #C5D3EE;
+    border: none;
+    margin-left: 20pt;
+    margin-right: 20pt;
 }
